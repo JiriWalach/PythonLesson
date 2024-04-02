@@ -12,10 +12,17 @@ person1 = Person("Pavel", "Novak", 45)
 # volám metodu přes objekt tečka metoda
 person1.showMsg()
 
+<<<<<<< HEAD
 class Student(Person):
     spec="Computer science"
     def __init__(self,  name, surename, age, spec):
         super().__init__(name, surename, age)
+=======
+class Student(Person):  #dědičnost person
+    spec="Computer science"
+    def __init__(self,  name, surename, age, spec):
+        super().__init__(name, surename, age) # přepisuji init ze třídy (rodiče) co je na víc se dává dále do self
+>>>>>>> 1304188 (wsde)
         self.spec = spec
 
     def showMsg(self):
