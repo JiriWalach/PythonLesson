@@ -12,7 +12,7 @@ class Student:
 student = Student("Adam", 50)
 student.showMsg()
 
-student.sayHi("čau")
+student.sayHi("ach  jo")
 student.sayHi("Dobrý den")
 # vlastnosti vytahuji přes tečkovou notaci
 # student1=Student("Pavel", 2000)
